@@ -1,9 +1,11 @@
 import React from 'react';
+import myImage from "../assets/images/myImage.jpg";
 
 export default function About() {
   return (
     <div>
         <h1>About Me</h1>
+        <img src={myImage} alt="myimage"></img>
         <p>
             My name is Mohit, born in New Delhi, national capital of an amazing country, India.
             I have a graduate degree in Physiotherapy and Diploma in Clinical Research from

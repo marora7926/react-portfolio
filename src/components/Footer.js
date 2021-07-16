@@ -3,7 +3,9 @@ import React from 'react';
 function Footer() {
     return (
       <footer className="footer">
-        <h1>Mohit Arora</h1>
+        <hr></hr>
+        <p>© 2021 Mohit Arora | ABN: 00 000 000 000</p>
+        <hr></hr>
       </footer>
     );
   }
