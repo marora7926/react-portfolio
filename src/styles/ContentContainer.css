@@ -1,0 +1,27 @@
+/* Styling for About-me page */
+.aboutMe {
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.aboutMe .para1 {
+    padding-top: 18px;
+}
+
+.aboutMe .para2 {
+    margin-left:12px;
+}
+
+.aboutMe .para3 {
+    margin-left:12px;
+}
+
+.passportImage{
+    float: left;
+    margin: 20px 10px 10px 10px;
+    width: 20%;
+    border: 3px solid #e64626;
+    border-radius: 15px;
+}

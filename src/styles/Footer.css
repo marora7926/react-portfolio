@@ -9,7 +9,7 @@
 }
 
 .footer p{
-    padding: 0 18px;
+    padding: 0 10px;
     margin-top: 15px;
     font-size: 15px;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .footerLinks a {
-    padding: 0 18px;
+    padding: 0 12px;
     font-size: 15px;
     color: white;
 }
