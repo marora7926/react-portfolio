@@ -1,5 +1,6 @@
 import React from 'react';
-import personalLogo from "./assets/images/personalLogo.png" 
+import personalLogo from "./assets/images/personalLogo.png"
+import '../styles/Header.css'  
 
 function Header() {
     return (

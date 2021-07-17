@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    background: #e64626;
+    justify-content: space-between;
+    height: 80px;
+    border: 2px;
+  }
+  
+.header h1 {
+    padding-top: 15px;
+    text-align: left;
+    color: white;
+}
+
+.personalLogo {
+    width: 110px;
+    border: 4px dotted #0f0c0c;    
+}
