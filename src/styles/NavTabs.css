@@ -1,0 +1,11 @@
+.nav-tabs {
+    border-bottom: 1px solid #f85d02 !important;
+    background: #f1b7ac;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav-link.active {
+    background-color: #a0f1c1 !important;
+    border-color:  #f85d02 #f85d02 #fff !important;
+}

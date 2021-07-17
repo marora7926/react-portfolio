@@ -1,4 +1,14 @@
 import React from 'react';
+import ResumeArora from "../assets/documents/Resume_Arora.pdf";
+import styled from 'styled-components'
+
+const Button = styled.button`
+  background: aquamarine;
+  border-radius: 3px;
+  border: 2px solid blue;
+  margin: 20px 10px;
+  padding: 10px 10px;
+`
 
 export default function Resume() {
   return (
@@ -14,10 +24,9 @@ export default function Resume() {
         </i> and <i>Trilogy Education Services</i>. I am now employer ready as a Full Stack 
         Web Developer or able to undertake and deliver a digital solution as per clients' needs.
       </p>
-      <br></br>
-      <p> 
-        Access my resume below: 
-      </p>
+      <Button>
+      <a href={ResumeArora} download="Resume-Mohit_Arora">Access my resume here</a>
+      </Button>
     </div>
   );
 }
