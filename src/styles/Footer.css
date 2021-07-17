@@ -1,0 +1,21 @@
+/* Sub-footer section properties --- share the similar properties as above sections */
+.footer {
+    background: #e64626;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.footer p{
+    padding: 0 18px;
+    margin-top: 15px;
+    font-size: 15px;
+    align-items: center;
+    color:white;
+}
+
+.footerLinks a {
+    padding: 0 18px;
+    font-size: 15px;
+    color: white;
+}

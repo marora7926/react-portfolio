@@ -6,7 +6,7 @@ function Header() {
     return (
       <header className="header">
             <h1>Mohit ARORA</h1>
-            <img src={personalLogo} alt="personal-Logo"></img>
+            <img className="personalLogo" src={personalLogo} alt="personal-Logo"></img>
       </header>
     );
   }
