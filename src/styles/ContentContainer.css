@@ -1,21 +1,17 @@
-/* Styling for About-me page */
-.aboutMe {
-    border-right: 2px solid #000000;
-    border-left: 2px solid #000000;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
+/* Styling for ABOUT-ME page */
 .aboutMe .para1 {
-    padding-top: 18px;
+    margin-left:12px;
 }
 
 .aboutMe .para2 {
     margin-left:12px;
 }
 
-.aboutMe .para3 {
+.animationText {
+    color: blue;
     margin-left:12px;
+    font-size: 25px;
+    font-style:italic;
 }
 
 .passportImage{
@@ -26,54 +22,60 @@
     border-radius: 15px;
 }
 
-/* Styling for Portfolio page */
-.portfolio {
-    border-right: 2px solid #000000;
-    border-left: 2px solid #000000;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
+/* Styling for PORTFOLIO page */
 .section-code {
     display: flex;
     flex-direction: column;
-    border: solid;
+    border: 2px solid;
     border-radius: 15px;
-    margin: 1.5em;
-}
-
-.card {
-    justify-content:center
+    margin: 10px;
 }
 
 .header-card {
-    padding: 0.5em;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-left: 25px
 }
 
-.section-code:hover {
-    background-color: var(--color-lighterOrange);
-    box-shadow: inset 0px 0px 15px var(--color-blue), 0 0 20px var(--color-darkerOrange);
+hr {
+    margin: 5px 0 !important;
 }
 
-.passport-image{
-    float: left;
-    margin: 10px 10px 10px 10px;
-    width: 20%;
-    height: 40%;
-    border: 3px solid var(--color-darkOrange);
-    border-radius: 15px;
-}
-
-.section-code p{
+.top-projects-completed li{
     font-size: 1.5em;
-    margin: 13px 10px 13px 10px;
-    line-height: 1.2;
-    color: var(--color-black);  
+    line-height: 1.5;
+    list-style: square;
+    margin-left: 40px;
 }
 
+.anchorD {
+    padding: 5px 30px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin: 15px 20px;
+    background-color: lightcyan;
+}
 
+.anchorR {
+    padding: 5px 30px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin: 15px 20px;
+    background-color: lightgoldenrodyellow;
+}
 
-/* Styling for Resume page */
+.singleItem {
+    font-size: 18px;
+}
+
+/* .projects-completed li:hover {
+    font-size: 1.75em;
+    transition: all 0.5s ease-in-out;
+    top:-2px;
+    left:-2px;
+} */
+
+/* Styling for RESUME page */
 .resume {
     border-right: 2px solid #000000;
     border-left: 2px solid #000000;

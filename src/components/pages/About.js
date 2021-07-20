@@ -1,10 +1,12 @@
 import React from 'react';
 import myImage from "../assets/images/myImage.jpg";
+import "../../index"
 
 export default function About() {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe section-code">
         <img className="passportImage" src={myImage} alt="myimage"></img>
+        <div id="app" className="animationText"></div>
         <p className="para1">
             I am born in New Delhi, national capital of an amazing country, India.
             I have a graduate degree in Physiotherapy and Diploma in Clinical Research from
@@ -12,7 +14,7 @@ export default function About() {
             Prime Minister Australia Asia Post Graduate Research Award to pursue 
             Ph.D. in Medicine at the University of Sydney, Australia.
         </p>
-        <p className="para2">
+        <p className="para1">
             I am based in Sydney, NSW and have enrolled in the 24-weeks 
             <i>"full stack flex coding bootcamp course"</i> at the University of Sydney 
             to gain knowledge and develop skills to build dynamic end-to-end web applications
@@ -23,10 +25,10 @@ export default function About() {
             skills in my current role where I will be developing a digital solution for 
             health-related educational resources for people with neurological disorders.  
         </p>
-        <p className="para2">
+        <p className="para1">
             I like drawing, eating spicy foods, learning international languages, cycling and running. 
         </p>
-        <small className="text-muted"><i className="para3">Last updated 18-July-2021</i></small>
+        <small className="text-muted"><i className="para2">Last updated 21-July-2021</i></small>
     </div>
   );
 }
