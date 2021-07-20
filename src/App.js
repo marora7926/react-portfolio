@@ -2,7 +2,8 @@ import React from "react";
 import Header from "./components/Header";
 import ContentContainer from "./components/ContentContainer";
 import Footer from "./components/Footer";
-import "./styles/ContentContainer.css"
+import "./styles/ContentContainer.css";
+
 
 const App = () => {
     return (
