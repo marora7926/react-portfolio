@@ -61,7 +61,7 @@ The following animation shows the web application's appearance and functionality
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./src/components/assets/images/react-portfolio-demo.gif)
 
 ## Deployed link
-
+[React-Portfolio-Mohit-Arora](https://marora7926.github.io/react-portfolio/)
 
 ---
 © 2021 Mohit Arora. All Rights Reserved.
