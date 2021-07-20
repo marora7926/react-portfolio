@@ -13,7 +13,7 @@ const Button = styled.button`
 
 export default function Resume() {
   return (
-    <div className="resume section">
+    <div className="resume">
         <div className="section-code">
           <h5>Full-stack Scientific Developer</h5>
           <p className="para">
