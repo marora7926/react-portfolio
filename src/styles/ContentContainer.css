@@ -21,7 +21,74 @@
 .passportImage{
     float: left;
     margin: 20px 10px 10px 10px;
-    width: 20%;
+    width: 15%;
     border: 3px solid #e64626;
     border-radius: 15px;
 }
+
+/* Styling for Portfolio page */
+.portfolio {
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.section-code {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 15px;
+    margin: 1.5em;
+}
+
+.card {
+    justify-content:center
+}
+
+.header-card {
+    padding: 0.5em;
+}
+
+.section-code:hover {
+    background-color: var(--color-lighterOrange);
+    box-shadow: inset 0px 0px 15px var(--color-blue), 0 0 20px var(--color-darkerOrange);
+}
+
+.passport-image{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 20%;
+    height: 40%;
+    border: 3px solid var(--color-darkOrange);
+    border-radius: 15px;
+}
+
+.section-code p{
+    font-size: 1.5em;
+    margin: 13px 10px 13px 10px;
+    line-height: 1.2;
+    color: var(--color-black);  
+}
+
+
+
+/* Styling for Resume page */
+.resume {
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.resume h5 {
+    padding-top: 15px;
+    margin-left:12px;
+}
+
+.resume .para {
+    margin-left:12px;
+    margin-right:10px;
+    margin-bottom: 5px;
+}
+

@@ -4,7 +4,6 @@ import myImage from "../assets/images/myImage.jpg";
 export default function About() {
   return (
     <div className="aboutMe">
-        {/* <h1>About Me</h1> */}
         <img className="passportImage" src={myImage} alt="myimage"></img>
         <p className="para1">
             I am born in New Delhi, national capital of an amazing country, India.

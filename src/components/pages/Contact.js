@@ -7,7 +7,7 @@ import { validateEmail } from '../../utils/helpers';
 export default function Contact() {
   return (
     <div>
-        <h2>Contact Me</h2>
+        <h5>Contact Me</h5>
         <div className="container">
           <div className="row">
             <section className="col">

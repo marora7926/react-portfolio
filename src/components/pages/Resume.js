@@ -2,19 +2,20 @@ import React from 'react';
 import ResumeArora from "../assets/documents/Resume_Arora.pdf";
 import styled from 'styled-components'
 
+// Styled-Component package for the button feature
 const Button = styled.button`
   background: aquamarine;
   border-radius: 3px;
   border: 2px solid blue;
-  margin: 20px 10px;
-  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 5px 5px;
 `
 
 export default function Resume() {
   return (
-    <div>
-      <h2>Full-stack Scientific Developer</h2>
-      <p>
+    <div className="resume">
+      <h5>Full-stack Scientific Developer</h5>
+      <p className="para">
         I am a talented, ambitious and hardworking individual, with broad skills and 
         experience in building dynamic end-to-end web applications and leading 
         projects. Furthermore, I am adept at handling multiple tasks on a daily basis
